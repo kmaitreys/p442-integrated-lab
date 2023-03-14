@@ -1,0 +1,361 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{giampieri_algorithms_1996}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=140adeac7a46c82869be4e126eccd87e}{%
+           family={Giampieri},
+           familyi={G\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cac2ab4b32b40cea6caab2fb81036c9}{%
+           family={Hellings},
+           familyi={H\bibinitperiod},
+           given={Ronald\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b4881564b2fa5638f474e2b79163119}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5810402b05d6b2d5715f6214870ed9bb}{%
+           family={Faller},
+           familyi={F\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9ff68f15ccc445457b7655e267483d9d}
+      \strng{fullhash}{17cb74e9bc0d82041d00b08451079f8f}
+      \strng{bibnamehash}{17cb74e9bc0d82041d00b08451079f8f}
+      \strng{authorbibnamehash}{17cb74e9bc0d82041d00b08451079f8f}
+      \strng{authornamehash}{9ff68f15ccc445457b7655e267483d9d}
+      \strng{authorfullhash}{17cb74e9bc0d82041d00b08451079f8f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00304018}
+      \field{journaltitle}{Optics Communications}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{4}
+      \field{shortjournal}{Optics Communications}
+      \field{title}{Algorithms for unequal-arm Michelson interferometers}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{123}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{669\bibrangedash 678}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0030-4018(95)00611-7
+      \endverb
+      \verb{file}
+      \verb Algorithms for unequal-arm Michelson interferometers:/home/peakcipher/Zotero/storage/WDW2KBC4/giampieri1996.pdf.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0030401895006117
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0030401895006117
+      \endverb
+    \endentry
+    \entry{kwaaitaal_measurement_1977}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23d4afc66a142150a402135b2dd69a98}{%
+           family={Kwaaitaal},
+           familyi={K\bibinitperiod},
+           given={Th.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23d4afc66a142150a402135b2dd69a98}
+      \strng{fullhash}{23d4afc66a142150a402135b2dd69a98}
+      \strng{bibnamehash}{23d4afc66a142150a402135b2dd69a98}
+      \strng{authorbibnamehash}{23d4afc66a142150a402135b2dd69a98}
+      \strng{authornamehash}{23d4afc66a142150a402135b2dd69a98}
+      \strng{authorfullhash}{23d4afc66a142150a402135b2dd69a98}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03048853}
+      \field{journaltitle}{Journal of Magnetism and Magnetic Materials}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shortjournal}{Journal of Magnetism and Magnetic Materials}
+      \field{title}{The measurement of small magnetostrictive effects by an interferometric method}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{6}
+      \field{year}{1977}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{290\bibrangedash 294}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/0304-8853(77)90130-5
+      \endverb
+      \verb{file}
+      \verb The measurement of small magnetostrictive effects by an interferometric method:/home/peakcipher/Zotero/storage/YTEPJ596/kwaaitaal1977.pdf.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0304885377901305
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0304885377901305
+      \endverb
+    \endentry
+    \entry{noauthor_ligos_nodate}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bringing together "What is {LIGO}" and "What is an Interferometer?" content to explain {LIGO}'s {IFO} design.}
+      \field{title}{{LIGO}'s Interferometer}
+      \field{titleaddon}{{LIGO} Lab {|} Caltech}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Snapshot:/home/peakcipher/Zotero/storage/RMKE3WU4/ligos-ifo.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ligo.caltech.edu/page/ligos-ifo
+      \endverb
+      \verb{url}
+      \verb https://www.ligo.caltech.edu/page/ligos-ifo
+      \endverb
+    \endentry
+    \entry{nakata_magnetostriction_1994}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=094c047c2ed06bbc9928813c1d054cf6}{%
+           family={Nakata},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=837a25ba882ec1ec6e438d81555b0de1}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1767fd1ea9497a65cd26a8fe74e171ab}{%
+           family={Nakano},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8df981dee5ed5e424c35ace1369e65b}{%
+           family={Muramatsu},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=199802d6ec122c81fe3fc7204917c5a9}{%
+           family={Miyake},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1e68558d6a0025059afa7849fc7a94a0}
+      \strng{fullhash}{e5d79ee7b7491c526187e17fa6616c13}
+      \strng{bibnamehash}{e5d79ee7b7491c526187e17fa6616c13}
+      \strng{authorbibnamehash}{e5d79ee7b7491c526187e17fa6616c13}
+      \strng{authornamehash}{1e68558d6a0025059afa7849fc7a94a0}
+      \strng{authorfullhash}{e5d79ee7b7491c526187e17fa6616c13}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00189464}
+      \field{journaltitle}{{IEEE} Transactions on Magnetics}
+      \field{month}{11}
+      \field{number}{6}
+      \field{shortjournal}{{IEEE} Trans. Magn.}
+      \field{title}{Magnetostriction measurements with a laser Doppler velocimeter}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{30}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{4563\bibrangedash 4565}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/20.334149
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/peakcipher/Zotero/storage/X7B67ZYR/Nakata et al. - 1994 - Magnetostriction measurements with a laser Doppler.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/334149/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/334149/
+      \endverb
+    \endentry
+    \entry{xu_relationship_2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e0bc05146dfbf0bc878f69bef184e40f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yong-gang},
+           giveni={Y\bibinithyphendelim g\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72fefcc5707f852078093838e4bd3762}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xiao-gang},
+           giveni={X\bibinithyphendelim g\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f45c8f037b5e4fda5176831027cbe140}
+      \strng{fullhash}{f45c8f037b5e4fda5176831027cbe140}
+      \strng{bibnamehash}{f45c8f037b5e4fda5176831027cbe140}
+      \strng{authorbibnamehash}{f45c8f037b5e4fda5176831027cbe140}
+      \strng{authornamehash}{f45c8f037b5e4fda5176831027cbe140}
+      \strng{authorfullhash}{f45c8f037b5e4fda5176831027cbe140}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09258388}
+      \field{journaltitle}{Journal of Alloys and Compounds}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Journal of Alloys and Compounds}
+      \field{title}{On relationship between annealing treatment and magnetostriction behavior of Fe–16Cr–2.5Mo damping alloy}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{582}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{364\bibrangedash 368}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.jallcom.2013.08.070
+      \endverb
+      \verb{file}
+      \verb On relationship between annealing treatment and magnetostriction behavior of Fe–16Cr–2.5Mo damping alloy:/home/peakcipher/Zotero/storage/AG2WSNJY/xu2014.pdf.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0925838813019300
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0925838813019300
+      \endverb
+    \endentry
+    \entry{yanase_measurement_2001}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b71ddda15d7119aab59414eed772cb04}{%
+           family={Yanase},
+           familyi={Y\bibinitperiod},
+           given={Shunji},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01d2cee06436dc7e20b51b9461b881dc}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={Kazuhiro},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d148bba19fa2b091ed856c0975318223}{%
+           family={Okazaki},
+           familyi={O\bibinitperiod},
+           given={Yasuo},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dbd08063c1ca5bd0072c77a7a859d528}
+      \strng{fullhash}{96d1b15bf592bcee7493e987db514e78}
+      \strng{bibnamehash}{96d1b15bf592bcee7493e987db514e78}
+      \strng{authorbibnamehash}{96d1b15bf592bcee7493e987db514e78}
+      \strng{authornamehash}{dbd08063c1ca5bd0072c77a7a859d528}
+      \strng{authorfullhash}{96d1b15bf592bcee7493e987db514e78}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09240136}
+      \field{journaltitle}{Journal of Materials Processing Technology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shortjournal}{Journal of Materials Processing Technology}
+      \field{title}{Measurement of magnetostriction and magnetic properties in an open magnetic circuit}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{108}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{221\bibrangedash 224}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/S0924-0136(00)00759-7
+      \endverb
+      \verb{file}
+      \verb Measurement of magnetostriction and magnetic properties in an open magnetic circuit:/home/peakcipher/Zotero/storage/UW8C4297/yanase2001.pdf.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0924013600007597
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0924013600007597
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

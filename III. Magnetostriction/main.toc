@@ -4,15 +4,16 @@
 \contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Magnetostriction}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}LASER}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Michelson Interferometer}{4}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Photo-diode Detector}{4}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Experimental Set-up}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Experiments and Analysis}{6}{chapter.4}%
-\contentsline {section}{\numberline {4.1}With Iron}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}With Nickel}{6}{section.4.2}%
-\contentsline {section}{\numberline {4.3}With Copper}{6}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Extensions and Innovation}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}With Iron}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}With Nickel}{12}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Results and Discussion}{18}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{19}{chapter.7}%
+\contentsline {section}{\numberline {2.3}Michelson Interferometer}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Photo-diode Detector}{7}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Experimental Set-up}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Experiments and Analysis}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}With Iron}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}With Nickel}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}With Copper}{13}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Extensions and Innovation}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}With Iron}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}With Nickel}{19}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Results and Discussion}{25}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{27}{chapter.7}%
+\contentsline {chapter}{Bibliography}{28}{chapter*.2}%
