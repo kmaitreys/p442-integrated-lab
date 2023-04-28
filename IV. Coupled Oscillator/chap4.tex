@@ -1,7 +1,16 @@
 \chapter{\label{method}Data Analysis}
 The data analysis was performed using Python's \texttt{SciPy} library. We recorded the data for 20 combinations of masses attached to the oscillators and then for each file, the fitted parameters were found. Corresponding to each fit parameter, we found the the Rabi model parameters of $ Delta $ (detuning) and $ \Omega $ (Rabi frequency). Then these parameters of the Rabi model were themselves fit according to their equations, relating them with geometric phase.
 
-For error analysis, we used Python's  \texttt{uncertainties} package, which preserved the significant digits when propagating errors. The complete code is on my \href{https://github.com/peakcipher/p442-integrated-lab/tree/master/IV.%20Coupled%20Oscillator}{GitHub}. Some snippets are also attached with this report.
+For error analysis, we used Python's  \texttt{uncertainties} package, which preserved the significant digits when propagating errors. The complete code is on my \href{https://github.com/peakcipher/p442-integrated-lab/tree/master/IV.\%20Coupled\%20Oscillator}{GitHub}. Some snippets are also attached with this report.
+
+Here is how the code works:
+\begin{itemize}
+	\item First we read the waveform from the file and import them into \texttt{NumPy} arrays.
+	\item \texttt{SciPy}'s \texttt{curve\_fit} function gives the covariance matrix. The diagonal elements of this matrix represent variance (which is the square of the standard deviation). Therefore, we take the diagonal elements and take their square root to get the standard deviation in parameters.
+	\item Then we use the \texttt{uncertainties} package's \texttt{ufloat} object to store our nominal values with thier standard deviation.
+	\item We convert all parameters as \texttt{ufloat} objects and then propagate through other formulae to find the error in them.
+	\item We use \texttt{unumpy}, a superset of \texttt{NumPy} compatible with \texttt{uncertainties} package to finally calculate all the parameters with their associated errors.
+\end{itemize} 
 
 In this section, we present our plots. In figure \ref{fig:first}, we present the fitted curve for one of the data file (representing one mass combination for the coupled oscillator). The figure \ref{fig:first_sq} represents the squares of the normalised amplitudes (basically the peaks of the `carrier' wave).
 
@@ -49,6 +58,27 @@ Here we present the plots where we calculated the Rabi model parameters and the 
 	\caption{Zoomed in version of the geometric phase plot to show the error bars}
 	\label{fig:first_sq}
 \end{figure}
+
+\section{Correlation Matrix Calculations}
+As stated earlier, the matrix was caluclated using Python's \texttt{SciPy}. Here, we will write the matrix for one data point. For the rest, please refer to the GitHub link.
+$
+\Bigg(\begin{smallmatrix}
+	7.68580524e-07 & 2.36824478e-08 & 1.51761995e-08 & -4.56947517e-07
+	& -2.48776918e-06 & -3.48929193e-08 & -9.42783208e-09 \\
+	2.36824478e-08 & 7.66811261e-07 & 2.24914950e-07 & 2.02813486e-08
+	&-1.15823362e-06& -1.32197830e-08& -7.19123808e-09 \\
+	 1.51761995e-08&  2.24914950e-07&  6.28335239e-06 & 6.42283112e-07
+	&-3.85895795e-05 &-4.44334319e-07&  2.37039720e-08 \\
+	-4.56947517e-07 & 2.02813486e-08&  6.42283112e-07 & 3.71393460e-05
+	&2.32215731e-04 & 3.28217440e-06&  1.70175054e-08 \\
+	-2.48776918e-06& -1.15823362e-06& -3.85895795e-05&  2.32215731e-04
+	&2.25269480e-03 & 3.09135290e-05& -1.95585048e-07 \\
+	-3.48929193e-08& -1.32197830e-08& -4.44334319e-07 & 3.28217440e-06
+	&3.09135290e-05 & 4.25921825e-07 &-2.32283158e-09 \\
+	-9.42783208e-09& -7.19123808e-09&  2.37039720e-08&  1.70175054e-08
+	&-1.95585048e-07 &-2.32283158e-09 & 3.78885897e-07
+\end{smallmatrix}\Bigg)
+$
 \setcounter{equation}{0}
 \setcounter{table}{0}
 \setcounter{figure}{0}

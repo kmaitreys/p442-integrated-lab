@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.28)  28 APR 2023 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.28)  28 APR 2023 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,7 +834,7 @@ Package biblatex Info: Reference segment=0 on input line 63.
 \openout2 = `title.aux'.
 
 (./title.tex
-<logo1.jpg, id=64, 493.6041pt x 518.4168pt>
+<logo1.jpg, id=68, 493.6041pt x 518.4168pt>
 File: logo1.jpg Graphic file (type jpg)
 <use logo1.jpg>
 Package pdftex.def Info: logo1.jpg  used on input line 28.
@@ -893,12 +893,12 @@ Chapter 2.
 
 
 ]
-<coupled1.png, id=113, 1204.5pt x 315.1775pt>
+<coupled1.png, id=118, 1204.5pt x 315.1775pt>
 File: coupled1.png Graphic file (type png)
 <use coupled1.png>
 Package pdftex.def Info: coupled1.png  used on input line 11.
 (pdftex.def)             Requested size: 361.35278pt x 94.55397pt.
-<two level.png, id=115, 219.82124pt x 136.25906pt>
+<two level.png, id=120, 219.82124pt x 136.25906pt>
 File: two level.png Graphic file (type png)
 <use two level.png>
 Package pdftex.def Info: two level.png  used on input line 24.
@@ -924,7 +924,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--88
 [][][]\OT1/cmr/m/n/10 Source:John Ren-nie, Net work done for rub-ber bands,
  []
 
-<Rubberband hysteresis.png, id=147, 598.48593pt x 380.17032pt>
+<Rubberband hysteresis.png, id=152, 598.48593pt x 380.17032pt>
 File: Rubberband hysteresis.png Graphic file (type png)
 <use Rubberband hysteresis.png>
 Package pdftex.def Info: Rubberband hysteresis.png  used on input line 91.
@@ -934,7 +934,7 @@ Package pdftex.def Info: Rubberband hysteresis.png  used on input line 91.
 
  (./chap3.tex
 Chapter 3.
-<setup diagram.png, id=170, 232.61906pt x 316.93407pt>
+<setup diagram.png, id=175, 232.61906pt x 316.93407pt>
 File: setup diagram.png Graphic file (type png)
 <use setup diagram.png>
 Package pdftex.def Info: setup diagram.png  used on input line 7.
@@ -945,18 +945,18 @@ Package pdftex.def Info: setup diagram.png  used on input line 7.
 
 
 ]
-<setup.jpeg, id=176, 1284.8pt x 963.6pt>
+<setup.jpeg, id=181, 1284.8pt x 963.6pt>
 File: setup.jpeg Graphic file (type jpg)
 <use setup.jpeg>
 Package pdftex.def Info: setup.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 385.44298pt x 289.08223pt.
  [11 <./setup diagram.png (PNG copy)>]
-<screenshot001.png, id=183, 505.13719pt x 558.58687pt>
+<screenshot001.png, id=188, 505.13719pt x 558.58687pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 21.
 (pdftex.def)             Requested size: 353.59361pt x 391.00815pt.
-<breadboard.jpeg, id=184, 1284.8pt x 665.48625pt>
+<breadboard.jpeg, id=189, 1284.8pt x 665.48625pt>
 File: breadboard.jpeg Graphic file (type jpg)
 <use breadboard.jpeg>
 Package pdftex.def Info: breadboard.jpeg  used on input line 27.
@@ -966,51 +966,62 @@ Package pdftex.def Info: breadboard.jpeg  used on input line 27.
 
  (./chap4.tex
 Chapter 4.
-<01.png, id=204, 867.24pt x 578.16pt>
-File: 01.png Graphic file (type png)
-<use 01.png>
-Package pdftex.def Info: 01.png  used on input line 10.
-(pdftex.def)             Requested size: 346.88986pt x 231.2599pt.
 [15
 
 
 
 
 ]
-<01_squared.png, id=211, 867.24pt x 578.16pt>
+<01.png, id=214, 867.24pt x 578.16pt>
+File: 01.png Graphic file (type png)
+<use 01.png>
+Package pdftex.def Info: 01.png  used on input line 19.
+(pdftex.def)             Requested size: 346.88986pt x 231.2599pt.
+<01_squared.png, id=215, 867.24pt x 578.16pt>
 File: 01_squared.png Graphic file (type png)
 <use 01_squared.png>
-Package pdftex.def Info: 01_squared.png  used on input line 18.
+Package pdftex.def Info: 01_squared.png  used on input line 27.
 (pdftex.def)             Requested size: 346.88986pt x 231.2599pt.
- [16 <./01.png> <./01_squared.png>]
-<20_freq_det.png, id=220, 462.528pt x 346.896pt>
+ [16 <./01.png>]
+<20_freq_det.png, id=224, 462.528pt x 346.896pt>
 File: 20_freq_det.png Graphic file (type png)
 <use 20_freq_det.png>
-Package pdftex.def Info: 20_freq_det.png  used on input line 32.
+Package pdftex.def Info: 20_freq_det.png  used on input line 41.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<Geometric_phase.png, id=221, 462.528pt x 346.896pt>
+ [17 <./01_squared.png>]
+<Geometric_phase.png, id=231, 462.528pt x 346.896pt>
 File: Geometric_phase.png Graphic file (type png)
 <use Geometric_phase.png>
-Package pdftex.def Info: Geometric_phase.png  used on input line 40.
+Package pdftex.def Info: Geometric_phase.png  used on input line 49.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<Zoomed_in_geometric_phase.png, id=222, 462.528pt x 346.896pt>
+<Zoomed_in_geometric_phase.png, id=232, 462.528pt x 346.896pt>
 File: Zoomed_in_geometric_phase.png Graphic file (type png)
 <use Zoomed_in_geometric_phase.png>
-Package pdftex.def Info: Zoomed_in_geometric_phase.png  used on input line 48.
+Package pdftex.def Info: Zoomed_in_geometric_phase.png  used on input line 57.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-) [17 <./20_freq_det.png> <./Geometric_phase.png>] [18 <./Zoomed_in_geometric_p
-hase.png>]
+)
+Overfull \hbox (72.89868pt too wide) in paragraph at lines 63--95
+[][] [] []$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--95
+
+ []
+
+[18 <./20_freq_det.png> <./Geometric_phase.png> <./Zoomed_in_geometric_phase.pn
+g>] [19]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
 Chapter 5.
-[19
+[20
 
 
 
 
-] [20]
-<03_1.png, id=249, 1445.4pt x 361.35pt>
+] [21]
+<03_1.png, id=259, 1445.4pt x 361.35pt>
 File: 03_1.png Graphic file (type png)
 <use 03_1.png>
 Package pdftex.def Info: 03_1.png  used on input line 24.
@@ -1020,7 +1031,7 @@ Overfull \hbox (72.27759pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-<04_1.png, id=250, 1445.4pt x 361.35pt>
+<04_1.png, id=260, 1445.4pt x 361.35pt>
 File: 04_1.png Graphic file (type png)
 <use 04_1.png>
 Package pdftex.def Info: 04_1.png  used on input line 31.
@@ -1030,8 +1041,8 @@ Overfull \hbox (72.27759pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-[21 <./03_1.png>]
-<05_1.png, id=257, 1445.4pt x 361.35pt>
+[22 <./03_1.png>]
+<05_1.png, id=268, 1445.4pt x 361.35pt>
 File: 05_1.png Graphic file (type png)
 <use 05_1.png>
 Package pdftex.def Info: 05_1.png  used on input line 38.
@@ -1041,7 +1052,7 @@ Overfull \hbox (72.27759pt too wide) in paragraph at lines 38--39
  [][] 
  []
 
-<16_1.png, id=258, 1445.4pt x 361.35pt>
+<16_1.png, id=269, 1445.4pt x 361.35pt>
 File: 16_1.png Graphic file (type png)
 <use 16_1.png>
 Package pdftex.def Info: 16_1.png  used on input line 44.
@@ -1051,7 +1062,7 @@ Overfull \hbox (72.27759pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
-<17_1.png, id=259, 1445.4pt x 361.35pt>
+<17_1.png, id=270, 1445.4pt x 361.35pt>
 File: 17_1.png Graphic file (type png)
 <use 17_1.png>
 Package pdftex.def Info: 17_1.png  used on input line 50.
@@ -1061,12 +1072,12 @@ Overfull \hbox (72.27759pt too wide) in paragraph at lines 50--51
  [][] 
  []
 
-) [22 <./04_1.png> <./05_1.png> <./16_1.png>] [23 <./17_1.png>]
+) [23 <./04_1.png> <./05_1.png> <./16_1.png>] [24 <./17_1.png>]
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 Chapter 6.
-) [24
+) [25
 
 
 
@@ -1076,7 +1087,7 @@ Chapter 6.
 
  (./chap7.tex
 Chapter 7.
-) [25
+) [26
 
 
 
@@ -1094,7 +1105,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 316D7C1BDC5C234F49472A2529D34781;2514.
+(rerunfilecheck)             Checksum: 447FA5E73A53048CD3B316EE2B464161;2730.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1105,14 +1116,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22546 strings out of 480171
- 434793 string characters out of 5894489
- 1139257 words of memory out of 5000000
- 40070 multiletter control sequences out of 15000+600000
- 481991 words of font info for 75 fonts, out of 8000000 for 9000
+ 22552 strings out of 480171
+ 434860 string characters out of 5894489
+ 1138257 words of memory out of 5000000
+ 40073 multiletter control sequences out of 15000+600000
+ 482328 words of font info for 76 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  71i,19n,79p,3526b,1826s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+ </home/ws10/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texl
@@ -1130,10 +1142,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (28 pages, 8386760 bytes).
+Output written on main.pdf (29 pages, 8391579 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
