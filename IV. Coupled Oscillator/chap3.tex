@@ -5,26 +5,27 @@ The displacements of the rulers are accurately measured using a He-Ne laser beam
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.8]{setup diagram.png}
-	\caption{The amplitude versus current data obtained for Fe rod on the magnetic bench}
+	\caption{ Schematic diagram of the
+		experimental set-up (top view) showing the path taken by the laser beam. PBS1, PBS2:polarising cube beam splitters; D1, D2: quad photodetectors}
 	\label{fig:mb-fe-0}
 \end{figure}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.3]{setup.jpeg}
-	\caption{The amplitude versus current data obtained for Fe rod on the magnetic bench}
+	\caption{Overview of our experimental set-up. Notice the the black pillar we set-up for our innovation part. That beam was mounted and a rubber band was tied to this beam and one of the rulers. This extra rubber band induced the dampening.}
 	\label{fig:mb-fe-0}
 \end{figure}
 The quad photo-detector comprises four photo-diodes arranged in a square cell, with the upper two detecting the upper signal of the moving laser spot and the lower two detecting the lower signal. To amplify the signals, we utilized the TL084 op-amp due to its superior slew rate and high-frequency response. The amplified signals are then subtracted using a differential amplifier (also TL084) to yield a signal voltage proportional to the displacement of the ruler. To eliminate high-frequency noise in our circuit, we incorporated an RC low pass filter. The signal is ultimately viewed through an oscilloscope, with the cut-off frequency of the RC filter set at 88.42Hz.
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.7]{screenshot001}
-	\caption{The amplitude versus current data obtained for Fe rod on the magnetic bench}
+	\caption{This is the TL084/AD708 circut diagram that was used to relay the voltage detcted by the photodetector.}
 	\label{fig:screenshot001}
 \end{figure}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.3]{breadboard.jpeg}
-	\caption{The amplitude versus current data obtained for Fe rod on the magnetic bench}
+	\caption{The circuitry of the amplifier (TL084) that was used to relay the data into our oscilloscope}
 	\label{fig:mb-fe-0}
 \end{figure}
 

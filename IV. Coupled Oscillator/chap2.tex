@@ -9,7 +9,7 @@ This article focuses on a specific quantum mechanical system, a two-state atom i
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.3]{coupled1.png}
-	\caption{The amplitude versus current data obtained for Fe rod on the magnetic bench}
+	\caption{Schematic diagram of a system of coupled oscillators}
 	\label{fig:mb-fe-0}
 \end{figure}
 $$ \begin{array}{l}m_{1} \ddot{x}_{1}=-k_{1} x_{1}+k\left(x_{2}-x_{1}\right), \\ m_{2} \ddot{x}_{2}=k\left(x_{1}-x_{2}\right)-k_{2} x_{2} .\end{array}$$
@@ -22,7 +22,9 @@ The quantum two level system\\
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1]{two level.png}
-	\caption{The amplitude versus current data obtained for Fe rod on the magnetic bench}
+	\caption{Level scheme of
+		a two-state atom interacting with a single-mode laser as an example of a two-level
+		quantum system.}
 	\label{fig:mb-fe-0}
 \end{figure}
 The system illustrated in figure 1(b)\footnote{ Sharba Bhattacharjee et al 2018 Eur. J. Phys. 39 035404} is that of an atom with a ground state\ \( |g\rangle \) of energy \( \hbar \omega_{g} \) and an excited state \( |e\rangle \) of energy \( \hbar \omega_{e} \), with resonant frequency \( \omega_{e}-\omega_{g}=\omega_{0} \). It interacts with an oscillating electric field \( \mathcal{E}(t)=\operatorname{Re}\left(\mathcal{E}_{0} \mathrm{e}^{\mathrm{i} \omega_{L} t}\right) \) such as a single-mode laser. We define the dipole moment \( \mu=e\langle g|\mathbf{r} \cdot \hat{\mathcal{E}}| e\rangle \), where \( e \) is the electronic charge and \( \hat{\mathcal{E}} \) is the unit vector in the direction of the electric field. Then the Hamiltonian matrix of the system in the \( \{|g\rangle,|e\rangle\} \) basis is [12]\[\mathbf{H}=\left(\begin{array}{cc}\hbar \omega_{g} & -\mu \mathcal{E}(t) \\-\mu^{*} \mathcal{E}(t) & \hbar \omega_{e}\end{array}\right)\]If we transform the state vector using the unitary operator \( U=|g\rangle\left\langle g\left|+\mathrm{e}^{-\mathrm{i} \omega_{L} t}\right| e\right\rangle\langle e| \), then the Hamiltonian matrix elements in the new basis \( \left\{|\tilde{g}\rangle=U^{\dagger}|g\rangle=|g\rangle,|\tilde{e}\rangle=U^{\dagger}|e\rangle=\mathrm{e}^{\mathrm{i} \omega L t}|e\rangle\right\} \) become time independent under the rotating wave approximation,\[\tilde{\mathbf{H}}=\hbar\left(\begin{array}{cc}\omega_{g} & -\Omega / 2 \\-\Omega / 2 & \omega_{g}+\Delta\end{array}\right)\]where we have defined \( \Delta=\omega_{0}-\omega_{L} \) (called the detuning) and \( \Omega=\mu \mathcal{E}_{0} / \hbar \) (called the Rabi frequency). \( \Omega \) is in general a complex quantity depending on the phase of the laser; here we choose the phase to be zero so that \( \Omega \) is real. Physically, this may be interpreted as moving the laser source towards or away from the atom to ensure that \( \mu \mathcal{E}_{0} \) is real. Then the state \( |\tilde{\psi}(t)\rangle \) of the system at a time \( t \), with the initial condition \( |\tilde{\psi}(0)\rangle=|\tilde{g}\rangle \), is given in the \( \{|\tilde{g}\rangle,|\tilde{e}\rangle\} \) basis as \( [12] \)\[|\tilde{\psi}(t)\rangle=c_{1}(t)|\tilde{g}\rangle+c_{2}(t)|\tilde{e}\rangle \equiv\left(\begin{array}{l}c_{1}(t) \\c_{2}(t)\end{array}\right),\]where\[\begin{aligned}c_{1}= & \frac{1}{2}\left[\left(\sqrt{\Delta^{2}+\Omega^{2}}-\Delta\right) \exp \left(-\mathrm{i}\left(\Delta+\sqrt{\Delta^{2}+\Omega^{2}}\right) t / 2-\mathrm{i} \omega_{g} t\right)\right. \\& \left.+\left(\sqrt{\Delta^{2}+\Omega^{2}}+\Delta\right) \exp \left(-\mathrm{i}\left(\Delta-\sqrt{\Delta^{2}+\Omega^{2}}\right) t / 2-\mathrm{i} \omega_{g} t\right)\right]\left(\Delta^{2}+\Omega^{2}\right)^{-1 / 2} \\c_{2}= & \frac{1}{2}\left[\Omega \exp \left(-\mathrm{i}\left(\Delta-\sqrt{\Delta^{2}+\Omega^{2}}\right) t / 2-\mathrm{i} \omega_{g} t\right)\right. \\& \left.-\Omega \exp \left(-\mathrm{i}\left(\Delta+\sqrt{\Delta^{2}+\Omega^{2}}\right) t / 2-\mathrm{i} \omega_{g} t\right)\right]\left(\Delta^{2}+\Omega^{2}\right)^{-1 / 2}\end{aligned}\]The coefficients \( c_{1}(t) \) and \( c_{2}(t) \) are the probability amplitudes, so that at any given time \( t \), \( \left|c_{1}(t)\right|^{2} \) and \( \left|c_{2}(t)\right|^{2} \) are the probabilities of the system collapsing to the states \( |\tilde{g}\rangle \) and \( |\tilde{e}\rangle \) respectively if its energy is measured.
@@ -32,7 +34,8 @@ The system illustrated in figure 1(b)\footnote{ Sharba Bhattacharjee et al 2018 
 % \usepackage{booktabs}
 \begin{table}[]
 	\centering
-	\caption{}
+	\caption{Relation between the quantities associated with the classical coupled oscillator
+		and the equivalent quantum two-level system.}
 	\label{tab:systems}
 	\resizebox{\textwidth}{!}{%
 	\begin{tabular}{@{}ll@{}}
@@ -86,7 +89,7 @@ In both cases the work is the integral of force with distance, i.e. the area und
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{Rubberband hysteresis.png}
-	\caption{The amplitude versus current data obtained for Fe rod on the magnetic bench}
+	\caption{The dynamics of a rubber band}
 	\label{fig:mb-fe-0}
 \end{figure}
 Because of the hysteresis you don't get as much work out as you put in and the net work is not zero.
